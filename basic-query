@@ -1,0 +1,10 @@
+SELECT SUM([Log Record Length]) FROM fn_dblog(null,null);
+
+
+
+select * from apac.myorder;
+insert into apac.myorder values (201,'aaa');
+
+
+- Microsoft SQL Server 데이터베이스를 AWS DMS에서 소스로 사용
+https://docs.aws.amazon.com/ko_kr/dms/latest/userguide/CHAP_Source.SQLServer.html#CHAP_Source.SQLServer.CDC.Publication
